@@ -1,2 +1,2 @@
-# estudosAndroid
-Estudando Android
+# Estudando com Android Studio e Gradle
+Em breve...
