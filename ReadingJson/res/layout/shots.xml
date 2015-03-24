@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/linhaShot"
+    android:padding="20dp" >
+ <ProgressBar                
+        android:layout_width="15dip"       
+        android:layout_height="15dip"
+        android:id="@+id/progress" 
+        android:layout_centerInParent="true"
+        />
+ <TableLayout
+   android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+     <TableRow android:id="@+id/linhaImageShot">
+        <ImageView
+    android:id="@+id/imageShot"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+	android:gravity="center"
+	android:layout_centerInParent="true" />
+        </TableRow>
+        </TableLayout>
+        
+ 
+        
+              <TableLayout
+   android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:layout_alignParentBottom="true">
+  <TableRow    
+  android:layout_width="match_parent"
+  android:layout_height="40dip"
+  android:id="@+id/linhaDesc"
+  android:padding="3dip"
+  android:background="#CC000000">
+     
+  
+       <TextView
+       android:id="@+id/title"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textColor="#ffffff"
+       android:layout_weight="0.7"
+       android:text="Title" />
+       
+       <ImageView
+       android:id="@+id/imageViews"
+       android:layout_width="20dp"
+       android:layout_height="20dp"
+       android:layout_marginRight="5dp"
+       android:layout_gravity="right"
+	   android:src="@drawable/views"/>
+       
+       <TextView
+       android:id="@+id/shotViews"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="right"
+       android:layout_marginRight="5dp"
+       android:textColor="#ffffff"
+       android:text="Views" />
+       
+       </TableRow>
+      </TableLayout>
+
+
+
+
+</RelativeLayout> 

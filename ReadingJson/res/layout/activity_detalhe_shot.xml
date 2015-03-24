@@ -1,0 +1,99 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+<LinearLayout 
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:orientation="vertical" >
+    
+<TableLayout
+   android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_gravity="left">
+  
+    <TableRow android:id="@+id/linhaImageShot">
+
+     <ImageView
+    android:id="@+id/imageShot"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+	android:src="@drawable/ic_launcher" />
+</TableRow>
+
+
+                    
+  
+   </TableLayout>
+   
+
+      <TableLayout
+   android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:layout_gravity="left">
+  <TableRow    
+  android:layout_width="match_parent"
+  android:layout_height="40dip"
+  android:id="@+id/linhaDesc"
+  android:padding="3dip"
+  android:background="#CC000000">
+     
+  
+       <TextView
+       android:id="@+id/title"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textColor="#ffffff"
+       android:layout_weight="0.7"
+       android:text="Title" />
+       
+       <ImageView
+       android:id="@+id/imageViews"
+       android:layout_width="20dp"
+       android:layout_height="20dp"
+       android:layout_marginRight="5dp"
+       android:layout_gravity="right"
+	   android:src="@drawable/views"/>
+       
+       <TextView
+       android:id="@+id/shotViews"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="right"
+       android:layout_marginRight="5dp"
+       android:textColor="#ffffff"
+       android:text="Views" />
+       
+       </TableRow>
+      </TableLayout>
+      
+
+   <TableLayout
+   android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_marginTop="10dp"
+  android:layout_gravity="left">
+    <TableRow android:id="@+id/linhaImageAutor">
+           
+      <ImageView
+       android:id="@+id/imageAutor"
+       android:layout_width="50dp"
+       android:layout_height="50dp"
+       android:layout_gravity="left"
+	   android:src="@drawable/ic_launcher"/>
+            
+       <TextView
+       android:id="@+id/nomeAutor"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="15dp"
+       android:text="Autor Fulano" />
+    
+       </TableRow>
+          </TableLayout>
+</LinearLayout>
+</ScrollView>
