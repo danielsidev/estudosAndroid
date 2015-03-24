@@ -7,4 +7,4 @@ Is There in application:
 * Has a activity to show the detail of published with your author
 * Has a model to published
 * Has a class/lib / jar to work images from url -> AQuery
-* Has a class to pagination of the Dribbble. Popular Publications.
+* Has a class to pagination of the Dribbble. Most  Popular Publications.
